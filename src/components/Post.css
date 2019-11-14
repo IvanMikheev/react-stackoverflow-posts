@@ -1,0 +1,24 @@
+.post {
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  border: 1px solid #666;
+  border-radius: 5px;
+  text-decoration: none;  
+  color: #000;  
+  transition: all ease-in-out .1s;
+}
+
+.post:hover {  
+  border-color: #aaa;
+  color: #666;
+}
+
+.post .avatar {
+  height: 30px;
+  margin-right: 10px;
+}

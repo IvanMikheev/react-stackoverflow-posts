@@ -1,0 +1,21 @@
+.btn-sort {  
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 5px;  
+  border: 1px solid #666;
+  border-radius: 5px;
+  background-color: #f1f1f1;  
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.btn-sort:hover{
+  background-color: #fff;
+}
+
+.btn-sort .icon {
+  display: flex;
+  align-self: center;
+  margin-left: 5px;
+}
